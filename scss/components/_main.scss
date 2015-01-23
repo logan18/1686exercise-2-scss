@@ -1,0 +1,140 @@
+
+body{
+	background-color: $background;
+	font-family: $Abel;
+}
+
+
+ul{
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0;
+}
+
+
+html {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%
+}
+
+a{ 
+	color: #686868;
+	text-decoration: none;
+	font-weight:600;
+	}
+
+a:hover { 
+	color: #CFB454;
+}
+
+ul{
+	list-style:none;
+}
+	
+main{
+	margin-top:6em;
+	padding-top:5%;
+	padding-bottom: 5%;
+	width: 100%;
+}
+
+p{
+	font-size: 0.7em;
+	padding-left:20%;
+	padding-right:20%;
+	padding-top: 5%;
+	text-align:center
+}
+
+.center{
+	text-align: center;
+}
+
+*:before, *:after {
+box-sizing: inherit;
+}
+
+
+.container{
+	margin:0 auto; 
+	width: 85%;
+	padding-top: 4rem;
+	padding-bottom:4rem;
+	position:relative;
+	overflow:auto;
+}
+
+html {
+	box-sizing: border-box;
+
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+
+/* ----------------- hvr-buzz credit: http://ianlunn.github.io/Hover/ ------------*/
+
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg);
+  }
+
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg);
+  }
+}
+
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+
