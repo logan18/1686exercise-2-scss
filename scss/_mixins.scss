@@ -1,1 +1,9 @@
-// Mixins
+
+
+@mixin icon($text-color, $hover-color;)
+	color: $text-color;
+	display: inline-block;
+	text-decoration: none;
+		&:hover{
+			color: $primary-dark;
+}		}
